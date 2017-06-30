@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Code Player </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+ <div class="header">
+
+ 	<div id="logo">CODE <span style="color: green ;">Player</span></div>
+ 
+
+   <div class="buttonContainer">
+      <div class="toggleButton active" id="html">HTML</div>
+      <div class="toggleButton" id="css">CSS</div>
+      <div class="toggleButton" id="javascript">Javascript</div>
+      <div class="toggleButton active " id="output">Output</div>
+   </div>
+
+   
+ </div>
+
+ <div id="bodyContainer">
+      <textarea id="htmlPanel" class="panel" > <p id="paragraph">Hello World</p></textarea>
+   	  <textarea id="cssPanel" class="panel hidden" > p{color :green ; }</textarea>
+   	  <textarea id="javascriptPanel" class="panel hidden" >document.getElementById("paragraph").innerHTML ="SUP DUDE " ;</textarea>
+   	  
+   	  <iframe id="outputPanel" class="panel"></iframe>
+
+
+   </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
